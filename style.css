@@ -4,17 +4,17 @@ html {
     color: seashell;
     background-color: black;
     opacity: 0.9;
-    text-align: center;
 }
 
 body {
     margin: 0;
+    text-align: center;
 }
 
 /* Header */
 
 header {
-    display: flex;
+    text-align: left;
     border-bottom: 1px solid seashell;
     height: 69px;
     position: fixed;
@@ -23,15 +23,20 @@ header {
     z-index: 10;
 }
 
-.nav {
-    display: inline-flex;
-    text-align: right;
-    margin: auto 0;
-}
-
 #logo { 
+    flex-direction: row;
     height: 50px;
     margin: auto 10px;
+}
+
+.nav {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.nav h3 {
+    text-decoration: underline;
+    margin: auto 15px;
 }
 
 /* Our Mission */
