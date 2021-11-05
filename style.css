@@ -62,13 +62,18 @@ nav {
 
 #tea-month {
     position: relative;
-    top: 69px;
+    top: 70px;
     width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-.tea-month {
-    display: flex;
+#tea-month:first-of-type {
+    color: yellow;
 }
+
 
 .tea-img {
     display: inline-flex;
