@@ -70,11 +70,6 @@ nav {
     margin: 0 auto;
 }
 
-#tea-month:first-of-type {
-    color: yellow;
-}
-
-
 .tea-img {
     display: inline-flex;
     height: 200px;
