@@ -64,16 +64,23 @@ nav {
     position: relative;
     top: 70px;
     width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     margin: 0 auto;
+}
+
+.tea-text {
+    width:100%
 }
 
 .tea-img {
     display: inline-flex;
     height: 200px;
     width: 300px;
+    flex-flow: column;
+    margin: 10px 10px;
+}
+
+figcaption {
+    margin-top: 10px;
 }
 
 /* location */
