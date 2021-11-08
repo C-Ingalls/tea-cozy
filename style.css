@@ -76,7 +76,7 @@ nav {
     height: 200px;
     width: 300px;
     flex-flow: column;
-    margin: 10px 10px;
+    margin: 30px 10px;
 }
 
 figcaption {
@@ -91,15 +91,22 @@ figcaption {
     background-position: center;
     display: flex;
     justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
     height: 500px;
     position: relative;
     top: 170px;
 }
 
+#locations h2{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
 #locations div {
     background-color: black;
     width: 300px;
-    margin: 15px 40px;
+    margin: 0 20px;
     opacity: 1;
 }
 
@@ -107,4 +114,13 @@ figcaption {
 footer {
     position: relative;
     top: 150px;
+}
+
+.contact {
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;;
 }
