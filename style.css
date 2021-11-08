@@ -87,10 +87,13 @@ figcaption {
 
 #locations {
     background-image: url("img/img-locations-background.jpg");
-    display: inline-flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
     height: 500px;
     position: relative;
-    top: 169px;
+    top: 170px;
 }
 
 #locations div {
@@ -98,4 +101,10 @@ figcaption {
     width: 300px;
     margin: 15px 40px;
     opacity: 1;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    top: 150px;
 }
